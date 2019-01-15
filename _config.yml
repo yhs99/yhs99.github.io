@@ -58,8 +58,8 @@ staticman:
         format           : "timestamp-seconds" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                : "6Lcly4kUAAAAAKmGxw2kqdZxDGPFurbx3V2gMNir"
+  secret                 : "6Lcly4kUAAAAABAmYa34lkq-E6NrxaFI-01jdG-M"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
