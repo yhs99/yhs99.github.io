@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "kr-KR"
-title                    : "YHS's-tech-history"
+title                    : "YHS's tech history"
 title_separator          : "-"
-name                     : "heesung-Yoon"
-description              : "YHS's-tech-blog"
+name                     : "heesungYoon"
+description              : "YHS's tech blog"
 url                      : "https://yhs99.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -140,10 +140,10 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/yhs99/yhs99.github.io"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      #url: 
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
