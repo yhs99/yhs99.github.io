@@ -42,7 +42,7 @@ comments:
     issue_term           : # "pathname" (default)
 staticman:
   allowedFields          : ['name','email', 'message'] # ['name', 'email', 'url', 'message']
-  branch                 : "customer" # "master"
+  branch                 : "master" # "master"
   commitMessage          : "New comment by {fields.name}" # "New comment by {fields.name}"
   filename               : # comment-{@timestamp}
   format                 : "yml" # "yml"
@@ -55,7 +55,7 @@ staticman:
     date:
       type               : "date" # "date"
       options:
-        format           : "timestamp-seconds" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
   siteKey                : "6Lcly4kUAAAAAKmGxw2kqdZxDGPFurbx3V2gMNir"
