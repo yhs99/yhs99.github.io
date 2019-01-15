@@ -12,7 +12,7 @@
 
 theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "kr-KR"
@@ -44,7 +44,7 @@ staticman:
   allowedFields          : ['name','email', 'message'] # ['name', 'email', 'url', 'message']
   branch                 : "customer" # "master"
   commitMessage          : "New comment by {fields.name}" # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
+  filename               : comment-{@timestamp} # comment-{@timestamp}
   format                 : "yml" # "yml"
   moderation             : true # true
   path                   : "/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "희성"
+  name             : "윤희성"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "지극히 평범한 개발자"
   location         : "Asia-Seoul"
